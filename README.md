@@ -37,6 +37,13 @@ Nothing below is merged yet; each line says where it stands.
   OFAC and OpenSanctions ingested by Airflow as streams without disk writes, Bitcoin screened over Kafka, taint
   propagated over *n* hops in Neo4j, the whole chain running as containerized services that start with one command. Traced 512.25 BTC received by an address on no sanctions list, 11.07% tainted at
   three hops — the case regulators care about and a single-hop check misses.
+- **[AI for Molecular Design](https://github.com/Ayoubhm07/AI-for-Molecular-Design-)** — machine learning for
+  EGFR drug discovery, solo. Eight notebooks from ChEMBL acquisition to classification, pIC50 regression,
+  clustering and activity cliffs, every model compared against a simple baseline. The companion Next.js site
+  computes molecular properties and similarity through a cheminformatics engine written in Rust and compiled to
+  WebAssembly, with a live in-browser benchmark against the JavaScript path and an automatic fallback when the
+  WebAssembly fails to load.
+
 - **Phantera** — LLM outbound platform, solo-built, pre-launch (private).
   Durable orchestration on Inngest with deduplication by event key in Redis, Stripe usage-based billing, and a CI gate
   built on an LLM evaluation harness (F1, MAE, Spearman) with NVIDIA garak red-teaming and prompt-injection detection.
