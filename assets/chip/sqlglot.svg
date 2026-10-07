@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 209 34" width="209" height="34" role="img" aria-label="tobymao/sqlglot #8519">
+  <rect x="0.5" y="0.5" width="208" height="33" fill="#0B1113" stroke="#4EF0C4" stroke-opacity="0.42"/>
+  <rect x="0" y="0" width="3" height="34" fill="#4EF0C4"/>
+  <circle cx="17" cy="17" r="3.2" fill="#4EF0C4">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2.37s" repeatCount="indefinite"/>
+  </circle>
+  <text x="29" y="22" fill="#ECF3F1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">tobymao/sqlglot</text>
+  <text x="149" y="22" fill="#4EF0C4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">#8519</text>
+</svg>
