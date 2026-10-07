@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 217 34" width="217" height="34" role="img" aria-label="AI for Molecular Design">
+  <rect x="0.5" y="0.5" width="216" height="33" fill="#0B1113" stroke="#7D8E89" stroke-opacity="0.34"/>
+  <rect x="0" y="0" width="3" height="34" fill="#7D8E89"/>
+  <circle cx="17" cy="17" r="3.2" fill="#7D8E89">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2.37s" repeatCount="indefinite"/>
+  </circle>
+  <text x="29" y="22" fill="#C9D6D2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">AI for Molecular Design</text>
+</svg>
