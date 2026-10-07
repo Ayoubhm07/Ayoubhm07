@@ -1,105 +1,187 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Ayoub Hammoudi — software engineer, backend and AI platforms. Merged upstream in apache/beam, tobymao/sqlglot and PrefectHQ/prefect.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="Ayoub Hammoudi — backend and AI platforms. Three pull requests merged upstream in apache/beam, tobymao/sqlglot and PrefectHQ/prefect.">
   <defs>
-    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="sweep" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#4EF0C4" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#4EF0C4" stop-opacity="0.07"/>
+      <stop offset="50%" stop-color="#4EF0C4" stop-opacity="0.08"/>
       <stop offset="100%" stop-color="#4EF0C4" stop-opacity="0"/>
     </linearGradient>
     <radialGradient id="core" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#4EF0C4" stop-opacity="0.9"/>
-      <stop offset="45%" stop-color="#4EF0C4" stop-opacity="0.22"/>
+      <stop offset="0%" stop-color="#4EF0C4" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#4EF0C4" stop-opacity="0.2"/>
       <stop offset="100%" stop-color="#4EF0C4" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="halo" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#4EF0C4" stop-opacity="0.13"/>
+      <stop offset="0%" stop-color="#4EF0C4" stop-opacity="0.14"/>
+      <stop offset="70%" stop-color="#4EF0C4" stop-opacity="0.03"/>
       <stop offset="100%" stop-color="#4EF0C4" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M48 0H0V48" fill="none" stroke="#4EF0C4" stroke-opacity="0.07" stroke-width="1"/>
+    <linearGradient id="wire" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4EF0C4" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#4EF0C4" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#4EF0C4" stop-opacity="0.15"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#4EF0C4" stroke-opacity="0.06" stroke-width="1"/>
     </pattern>
+    <clipPath id="typeclip">
+      <rect x="70" y="330" width="0" height="26">
+        <animate attributeName="width" values="0;0;470;470" keyTimes="0;0.06;0.44;1" dur="11s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <path id="orbitA" d="M 930 220 m -210 0 a 210 72 0 1 0 420 0 a 210 72 0 1 0 -420 0"/>
+    <path id="orbitB" d="M 930 220 m -150 0 a 150 150 0 1 1 300 0 a 150 150 0 1 1 -300 0"/>
   </defs>
 
-  <rect width="1200" height="380" fill="#070A0B"/>
-  <rect width="1200" height="380" fill="url(#grid)"/>
-  <circle cx="960" cy="190" r="260" fill="url(#halo)"/>
+  <rect width="1200" height="440" fill="#070A0B"/>
+  <rect width="1200" height="440" fill="url(#grid)"/>
+  <circle cx="930" cy="220" r="300" fill="url(#halo)"/>
 
-  <rect x="0" y="-90" width="1200" height="90" fill="url(#scan)">
-    <animate attributeName="y" values="-90;380" dur="7s" repeatCount="indefinite"/>
+  <rect x="0" y="-110" width="1200" height="110" fill="url(#sweep)">
+    <animate attributeName="y" values="-110;440" dur="6.5s" repeatCount="indefinite"/>
   </rect>
 
-  <rect x="0" y="0" width="1200" height="3" fill="#4EF0C4"/>
+  <rect x="0" y="0" width="1200" height="2.5" fill="#4EF0C4"/>
+  <rect x="0" y="0" width="190" height="2.5" fill="#E8A33D">
+    <animate attributeName="x" values="-190;1200" dur="5s" repeatCount="indefinite"/>
+  </rect>
 
-  <g transform="translate(960 190)">
-    <g>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="28s" repeatCount="indefinite"/>
-      <ellipse rx="150" ry="52" fill="none" stroke="#4EF0C4" stroke-opacity="0.55" stroke-width="1.2"/>
-      <ellipse rx="150" ry="52" fill="none" stroke="#4EF0C4" stroke-opacity="0.3" stroke-width="1.2" transform="rotate(60)"/>
-      <ellipse rx="150" ry="52" fill="none" stroke="#4EF0C4" stroke-opacity="0.3" stroke-width="1.2" transform="rotate(120)"/>
+  <g transform="translate(930 220)">
+    <ellipse rx="188" ry="188" fill="none" stroke="#4EF0C4" stroke-opacity="0.16" stroke-width="1"/>
+    <ellipse rx="188" ry="188" fill="none" stroke="#E8A33D" stroke-opacity="0.5" stroke-width="1.4" stroke-dasharray="4 340" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <g stroke="#4EF0C4" fill="none" stroke-width="1.1">
+      <ellipse rx="150" ry="150" stroke-opacity="0.55">
+        <animate attributeName="rx" values="150;6;150" dur="11s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.6;0.15;0.6" dur="11s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="150" ry="150" stroke-opacity="0.55">
+        <animate attributeName="rx" values="150;6;150" dur="11s" begin="-1.83s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.6;0.15;0.6" dur="11s" begin="-1.83s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="150" ry="150" stroke-opacity="0.55">
+        <animate attributeName="rx" values="150;6;150" dur="11s" begin="-3.66s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.6;0.15;0.6" dur="11s" begin="-3.66s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="150" ry="150" stroke-opacity="0.55">
+        <animate attributeName="rx" values="150;6;150" dur="11s" begin="-5.5s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.6;0.15;0.6" dur="11s" begin="-5.5s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="150" ry="150" stroke-opacity="0.55">
+        <animate attributeName="rx" values="150;6;150" dur="11s" begin="-7.33s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.6;0.15;0.6" dur="11s" begin="-7.33s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="150" ry="150" stroke-opacity="0.55">
+        <animate attributeName="rx" values="150;6;150" dur="11s" begin="-9.16s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.6;0.15;0.6" dur="11s" begin="-9.16s" repeatCount="indefinite"/>
+      </ellipse>
     </g>
-    <g>
-      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="19s" repeatCount="indefinite"/>
-      <ellipse rx="104" ry="104" fill="none" stroke="#E8A33D" stroke-opacity="0.42" stroke-width="1.2" stroke-dasharray="7 11"/>
-      <rect x="-62" y="-62" width="124" height="124" fill="none" stroke="#4EF0C4" stroke-opacity="0.6" stroke-width="1.2" transform="rotate(45)"/>
+
+    <g stroke="#4EF0C4" fill="none" stroke-width="1" stroke-opacity="0.26">
+      <ellipse rx="150" ry="20"/>
+      <ellipse rx="130" ry="17" cy="-72"/>
+      <ellipse rx="130" ry="17" cy="72"/>
+      <ellipse rx="83" ry="11" cy="-123"/>
+      <ellipse rx="83" ry="11" cy="123"/>
     </g>
-    <circle r="54" fill="url(#core)">
-      <animate attributeName="r" values="50;58;50" dur="4.5s" repeatCount="indefinite"/>
+
+    <circle r="46" fill="url(#core)">
+      <animate attributeName="r" values="42;52;42" dur="4.2s" repeatCount="indefinite"/>
     </circle>
-    <circle r="7" fill="#4EF0C4"/>
-    <circle cx="-128" cy="-64" r="4.5" fill="#E8A33D">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.4s" repeatCount="indefinite"/>
+    <circle r="6" fill="#ECF3F1"/>
+  </g>
+
+  <g>
+    <circle r="4.5" fill="#4EF0C4">
+      <animateMotion dur="7s" repeatCount="indefinite"><mpath href="#orbitA"/></animateMotion>
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="7s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="118" cy="78" r="3.5" fill="#4EF0C4">
-      <animate attributeName="opacity" values="1;0.25;1" dur="5.1s" repeatCount="indefinite"/>
+    <circle r="3" fill="#4EF0C4">
+      <animateMotion dur="7s" begin="-2.4s" repeatCount="indefinite"><mpath href="#orbitA"/></animateMotion>
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="7s" begin="-2.4s" repeatCount="indefinite"/>
     </circle>
+    <circle r="5" fill="#E8A33D">
+      <animateMotion dur="13s" repeatCount="indefinite"><mpath href="#orbitB"/></animateMotion>
+    </circle>
+    <circle r="2.6" fill="#E8A33D" opacity="0.6">
+      <animateMotion dur="13s" begin="-6.5s" repeatCount="indefinite"><mpath href="#orbitB"/></animateMotion>
+    </circle>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-weight="700" font-size="60" letter-spacing="-1.2">
+    <text x="68" y="146" fill="#E8A33D" opacity="0.55">
+      AYOUB HAMMOUDI
+      <animate attributeName="x" values="68;74;66;68;68;68;68;68" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.55;0;0;0;0;0" dur="6s" repeatCount="indefinite"/>
+    </text>
+    <text x="68" y="146" fill="#4EF0C4" opacity="0.55">
+      AYOUB HAMMOUDI
+      <animate attributeName="x" values="68;62;71;68;68;68;68;68" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.55;0;0;0;0;0" dur="6s" repeatCount="indefinite"/>
+    </text>
+    <text x="68" y="146" fill="#ECF3F1">AYOUB HAMMOUDI</text>
   </g>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <text x="70" y="78" fill="#4EF0C4" font-size="13" letter-spacing="5.5">SOFTWARE ENGINEER</text>
+    <text x="70" y="74" fill="#4EF0C4" font-size="12.5" letter-spacing="5.5">SOFTWARE ENGINEER</text>
+    <text x="70" y="182" fill="#8FA09C" font-size="15">backend <tspan fill="#4EF0C4">&#183;</tspan> AI platforms <tspan fill="#4EF0C4">&#183;</tspan> security</text>
   </g>
 
-  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-weight="700">
-    <text x="68" y="150" fill="#ECF3F1" font-size="58" letter-spacing="-1">AYOUB HAMMOUDI</text>
+  <g>
+    <line x1="70" y1="212" x2="620" y2="212" stroke="#4EF0C4" stroke-opacity="0.18"/>
+    <line x1="70" y1="212" x2="620" y2="212" stroke="url(#wire)" stroke-width="1.6" stroke-dasharray="90 460">
+      <animate attributeName="stroke-dashoffset" values="550;0" dur="4.5s" repeatCount="indefinite"/>
+    </line>
   </g>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
-    <text x="70" y="186" fill="#8FA09C">backend <tspan fill="#4EF0C4">&#183;</tspan> AI platforms <tspan fill="#4EF0C4">&#183;</tspan> security</text>
-  </g>
-
-  <line x1="70" y1="212" x2="640" y2="212" stroke="#4EF0C4" stroke-opacity="0.22"/>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">
-    <text x="70" y="242" fill="#64756F" letter-spacing="2.6">MERGED UPSTREAM</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+    <text x="70" y="244" fill="#64756F" letter-spacing="2.8">MERGED UPSTREAM</text>
 
     <g opacity="0">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.4s" fill="freeze"/>
-      <text x="70" y="272" fill="#4EF0C4">&#9654;</text>
-      <text x="96" y="272" fill="#ECF3F1">apache/beam</text>
-      <text x="300" y="272" fill="#64756F">#40430</text>
+      <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.5s" fill="freeze"/>
+      <text x="70" y="276" fill="#4EF0C4">&#9654;</text>
+      <text x="97" y="276" fill="#ECF3F1">apache/beam</text>
+      <text x="318" y="276" fill="#64756F">#40430</text>
+      <circle cx="79" cy="271" r="11" fill="none" stroke="#4EF0C4" stroke-opacity="0.8">
+        <animate attributeName="r" values="4;19" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.8;0" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
+      </circle>
     </g>
     <g opacity="0">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.95s" fill="freeze"/>
-      <text x="70" y="298" fill="#4EF0C4">&#9654;</text>
-      <text x="96" y="298" fill="#ECF3F1">tobymao/sqlglot</text>
-      <text x="300" y="298" fill="#64756F">#8519</text>
+      <animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.05s" fill="freeze"/>
+      <text x="70" y="302" fill="#4EF0C4">&#9654;</text>
+      <text x="97" y="302" fill="#ECF3F1">tobymao/sqlglot</text>
+      <text x="318" y="302" fill="#64756F">#8519</text>
+      <circle cx="79" cy="297" r="11" fill="none" stroke="#4EF0C4" stroke-opacity="0.8">
+        <animate attributeName="r" values="4;19" dur="2.6s" begin="1.05s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.8;0" dur="2.6s" begin="1.05s" repeatCount="indefinite"/>
+      </circle>
     </g>
     <g opacity="0">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.5s" fill="freeze"/>
-      <text x="70" y="324" fill="#4EF0C4">&#9654;</text>
-      <text x="96" y="324" fill="#ECF3F1">PrefectHQ/prefect</text>
-      <text x="300" y="324" fill="#64756F">#23281</text>
+      <animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.6s" fill="freeze"/>
+      <text x="70" y="328" fill="#4EF0C4">&#9654;</text>
+      <text x="97" y="328" fill="#ECF3F1">PrefectHQ/prefect</text>
+      <text x="318" y="328" fill="#64756F">#23281</text>
+      <circle cx="79" cy="323" r="11" fill="none" stroke="#4EF0C4" stroke-opacity="0.8">
+        <animate attributeName="r" values="4;19" dur="2.6s" begin="1.6s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.8;0" dur="2.6s" begin="1.6s" repeatCount="indefinite"/>
+      </circle>
     </g>
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.05s" fill="freeze"/>
-      <text x="70" y="350" fill="#E8A33D">&#9633;</text>
-      <text x="96" y="350" fill="#8FA09C">microsoft/agent-framework, microsoft/PyRIT</text>
-      <text x="470" y="350" fill="#64756F">under review</text>
-    </g>
-    <rect x="70" y="340" width="9" height="15" fill="#4EF0C4" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.83;0.86;1" dur="12s" repeatCount="indefinite"/>
-    </rect>
   </g>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5">
-    <text x="1130" y="352" fill="#64756F" text-anchor="end" letter-spacing="2.2">PARIS &#183; OPEN FEB 2027</text>
+  <g clip-path="url(#typeclip)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+    <text x="70" y="349" fill="#E8A33D">&#9633; microsoft/agent-framework, microsoft/PyRIT &#8212; under review</text>
   </g>
+  <rect x="70" y="337" width="8" height="15" fill="#4EF0C4">
+    <animate attributeName="x" values="70;70;540;540" keyTimes="0;0.06;0.44;1" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0;1;0;1;0;1;0;1" dur="11s" repeatCount="indefinite"/>
+  </rect>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="2.4">
+    <text x="70" y="400" fill="#64756F">PARIS &#183; OPEN FOR FULL-TIME FROM FEB 2027</text>
+    <text x="1132" y="400" fill="#4EF0C4" text-anchor="end">github.com/Ayoubhm07</text>
+  </g>
+
+  <rect x="0" y="437.5" width="1200" height="2.5" fill="#4EF0C4" opacity="0.35"/>
 </svg>
