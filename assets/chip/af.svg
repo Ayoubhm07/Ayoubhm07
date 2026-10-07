@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 284 34" width="284" height="34" role="img" aria-label="microsoft/agent-framework #9139">
+  <rect x="0.5" y="0.5" width="283" height="33" fill="#0B1113" stroke="#E8A33D" stroke-opacity="0.42"/>
+  <rect x="0" y="0" width="3" height="34" fill="#E8A33D"/>
+  <circle cx="17" cy="17" r="3.2" fill="#E8A33D">
+    <animate attributeName="opacity" values="1;0.25;1" dur="3.11s" repeatCount="indefinite"/>
+  </circle>
+  <text x="29" y="22" fill="#ECF3F1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">microsoft/agent-framework</text>
+  <text x="224" y="22" fill="#E8A33D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">#9139</text>
+</svg>
