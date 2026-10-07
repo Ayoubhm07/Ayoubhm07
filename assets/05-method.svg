@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-label="How I work: benchmark with repetitions and dispersion, write down what I did not prove, kill my own ideas when the code disagrees, attack my own patch before a reviewer does, run the repository's own tools at the versions it pins.">
+  <defs>
+    <pattern id="w-grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#4EF0C4" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="w-flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4EF0C4" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4EF0C4" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#4EF0C4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="300" fill="#070A0B"/>
+  <rect width="900" height="300" fill="url(#w-grid)"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="50" y="46" fill="#4EF0C4" font-size="13" letter-spacing="5">HOW I WORK</text>
+    <text x="850" y="46" fill="#64756F" font-size="13" text-anchor="end" letter-spacing="2">MEASURED, NOT CLAIMED</text>
+  </g>
+  <line x1="50" y1="62" x2="850" y2="62" stroke="#4EF0C4" stroke-opacity="0.2"/>
+  <line x1="50" y1="62" x2="850" y2="62" stroke="url(#w-flow)" stroke-width="2" stroke-dasharray="130 670">
+    <animate attributeName="stroke-dashoffset" values="800;0" dur="5.5s" repeatCount="indefinite"/>
+  </line>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.25s" fill="freeze"/>
+      <text x="50" y="98" fill="#4EF0C4" font-size="13">01</text>
+      <text x="84" y="98" fill="#ECF3F1" font-size="13.5">I benchmark with repetitions, medians and dispersion, never a single run</text>
+      <text x="84" y="116" fill="#64756F" font-size="12">and I bin a series when the control says the machine drifted</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.55s" fill="freeze"/>
+      <text x="50" y="146" fill="#4EF0C4" font-size="13">02</text>
+      <text x="84" y="146" fill="#ECF3F1" font-size="13.5">I write down what I did <tspan fill="#E8A33D">not</tspan> prove</text>
+      <text x="84" y="164" fill="#64756F" font-size="12">the Iceberg issue says plainly which number I could not reproduce</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.85s" fill="freeze"/>
+      <text x="50" y="194" fill="#4EF0C4" font-size="13">03</text>
+      <text x="84" y="194" fill="#ECF3F1" font-size="13.5">I kill my own ideas when the code disagrees</text>
+      <text x="84" y="212" fill="#64756F" font-size="12">a 4x win collapsed on a close read; it is out</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.15s" fill="freeze"/>
+      <text x="50" y="242" fill="#4EF0C4" font-size="13">04</text>
+      <text x="84" y="242" fill="#ECF3F1" font-size="13.5">I attack my own patch before a reviewer does</text>
+      <text x="84" y="260" fill="#64756F" font-size="12">one adversarial pass found five defects in my own description</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.45s" fill="freeze"/>
+      <text x="50" y="286" fill="#4EF0C4" font-size="13">05</text>
+      <text x="84" y="286" fill="#ECF3F1" font-size="13.5">I run a repository's own tools at the versions it pins, not the latest</text>
+    </g>
+  </g>
+
+  <g stroke="#4EF0C4" stroke-opacity="0.35" fill="none">
+    <line x1="62" y1="104" x2="62" y2="140">
+      <animate attributeName="stroke-opacity" values="0;0.35" dur="0.4s" begin="0.55s" fill="freeze"/>
+    </line>
+    <line x1="62" y1="152" x2="62" y2="188">
+      <animate attributeName="stroke-opacity" values="0;0.35" dur="0.4s" begin="0.85s" fill="freeze"/>
+    </line>
+    <line x1="62" y1="200" x2="62" y2="236">
+      <animate attributeName="stroke-opacity" values="0;0.35" dur="0.4s" begin="1.15s" fill="freeze"/>
+    </line>
+    <line x1="62" y1="248" x2="62" y2="280">
+      <animate attributeName="stroke-opacity" values="0;0.35" dur="0.4s" begin="1.45s" fill="freeze"/>
+    </line>
+  </g>
+</svg>
