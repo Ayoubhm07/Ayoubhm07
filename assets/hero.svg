@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Ayoub Hammoudi — software engineer, backend and AI platforms. Merged upstream in apache/beam, tobymao/sqlglot and PrefectHQ/prefect.">
+  <defs>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4EF0C4" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4EF0C4" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#4EF0C4" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4EF0C4" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#4EF0C4" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#4EF0C4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4EF0C4" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#4EF0C4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#4EF0C4" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="380" fill="#070A0B"/>
+  <rect width="1200" height="380" fill="url(#grid)"/>
+  <circle cx="960" cy="190" r="260" fill="url(#halo)"/>
+
+  <rect x="0" y="-90" width="1200" height="90" fill="url(#scan)">
+    <animate attributeName="y" values="-90;380" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="0" y="0" width="1200" height="3" fill="#4EF0C4"/>
+
+  <g transform="translate(960 190)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="28s" repeatCount="indefinite"/>
+      <ellipse rx="150" ry="52" fill="none" stroke="#4EF0C4" stroke-opacity="0.55" stroke-width="1.2"/>
+      <ellipse rx="150" ry="52" fill="none" stroke="#4EF0C4" stroke-opacity="0.3" stroke-width="1.2" transform="rotate(60)"/>
+      <ellipse rx="150" ry="52" fill="none" stroke="#4EF0C4" stroke-opacity="0.3" stroke-width="1.2" transform="rotate(120)"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="19s" repeatCount="indefinite"/>
+      <ellipse rx="104" ry="104" fill="none" stroke="#E8A33D" stroke-opacity="0.42" stroke-width="1.2" stroke-dasharray="7 11"/>
+      <rect x="-62" y="-62" width="124" height="124" fill="none" stroke="#4EF0C4" stroke-opacity="0.6" stroke-width="1.2" transform="rotate(45)"/>
+    </g>
+    <circle r="54" fill="url(#core)">
+      <animate attributeName="r" values="50;58;50" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="7" fill="#4EF0C4"/>
+    <circle cx="-128" cy="-64" r="4.5" fill="#E8A33D">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="118" cy="78" r="3.5" fill="#4EF0C4">
+      <animate attributeName="opacity" values="1;0.25;1" dur="5.1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="70" y="78" fill="#4EF0C4" font-size="13" letter-spacing="5.5">SOFTWARE ENGINEER</text>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-weight="700">
+    <text x="68" y="150" fill="#ECF3F1" font-size="58" letter-spacing="-1">AYOUB HAMMOUDI</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+    <text x="70" y="186" fill="#8FA09C">backend <tspan fill="#4EF0C4">&#183;</tspan> AI platforms <tspan fill="#4EF0C4">&#183;</tspan> security</text>
+  </g>
+
+  <line x1="70" y1="212" x2="640" y2="212" stroke="#4EF0C4" stroke-opacity="0.22"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">
+    <text x="70" y="242" fill="#64756F" letter-spacing="2.6">MERGED UPSTREAM</text>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.4s" fill="freeze"/>
+      <text x="70" y="272" fill="#4EF0C4">&#9654;</text>
+      <text x="96" y="272" fill="#ECF3F1">apache/beam</text>
+      <text x="300" y="272" fill="#64756F">#40430</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.95s" fill="freeze"/>
+      <text x="70" y="298" fill="#4EF0C4">&#9654;</text>
+      <text x="96" y="298" fill="#ECF3F1">tobymao/sqlglot</text>
+      <text x="300" y="298" fill="#64756F">#8519</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.5s" fill="freeze"/>
+      <text x="70" y="324" fill="#4EF0C4">&#9654;</text>
+      <text x="96" y="324" fill="#ECF3F1">PrefectHQ/prefect</text>
+      <text x="300" y="324" fill="#64756F">#23281</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.05s" fill="freeze"/>
+      <text x="70" y="350" fill="#E8A33D">&#9633;</text>
+      <text x="96" y="350" fill="#8FA09C">microsoft/agent-framework, microsoft/PyRIT</text>
+      <text x="470" y="350" fill="#64756F">under review</text>
+    </g>
+    <rect x="70" y="340" width="9" height="15" fill="#4EF0C4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.83;0.86;1" dur="12s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5">
+    <text x="1130" y="352" fill="#64756F" text-anchor="end" letter-spacing="2.2">PARIS &#183; OPEN FEB 2027</text>
+  </g>
+</svg>
