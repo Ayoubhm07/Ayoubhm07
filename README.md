@@ -1,7 +1,4 @@
-<p align="center">
-  <img src="assets/hero.svg" alt="Ayoub Hammoudi — software engineer, backend and AI platforms. Merged upstream in apache/beam, tobymao/sqlglot and PrefectHQ/prefect." width="100%">
-</p>
-
+### Ayoub Hammoudi
 
 Software engineer — backend and AI platforms. I ship systems end to end, and I measure before I claim.
 Based in Paris, available for full-time roles from February 2027.
@@ -98,3 +95,9 @@ Kafka · Spark Structured Streaming · Airflow · Delta Lake · Apache Iceberg �
 Next.js · React · Docker · Playwright · LLM evaluation and red-teaming
 
 [Portfolio](https://ayoubdevspace.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/ayoub-hammoudi-3251851b8/)
+
+---
+
+<p align="center">
+  <img src="assets/hero.svg" alt="Ayoub Hammoudi — software engineer, backend and AI platforms. Merged upstream in apache/beam, tobymao/sqlglot and PrefectHQ/prefect." width="100%">
+</p>
