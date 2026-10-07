@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320" role="img" aria-label="Ayoub Hammoudi — software engineer, backend and AI platforms, security. Paris, open for full-time from February 2027.">
+  <defs>
+    <linearGradient id="h-sweep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4EF0C4" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4EF0C4" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#4EF0C4" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="h-core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4EF0C4" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#4EF0C4" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#4EF0C4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="h-halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4EF0C4" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#4EF0C4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="h-grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#4EF0C4" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <path id="h-orbit" d="M 712 160 m -160 0 a 160 56 0 1 0 320 0 a 160 56 0 1 0 -320 0"/>
+  </defs>
+
+  <rect width="900" height="320" fill="#070A0B"/>
+  <rect width="900" height="320" fill="url(#h-grid)"/>
+  <circle cx="712" cy="160" r="230" fill="url(#h-halo)"/>
+
+  <rect x="0" y="-100" width="900" height="100" fill="url(#h-sweep)">
+    <animate attributeName="y" values="-100;320" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="0" y="0" width="900" height="3" fill="#4EF0C4"/>
+  <rect x="0" y="0" width="160" height="3" fill="#E8A33D">
+    <animate attributeName="x" values="-160;900" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <g transform="translate(712 160)">
+    <ellipse rx="146" ry="146" fill="none" stroke="#E8A33D" stroke-opacity="0.5" stroke-width="1.4" stroke-dasharray="4 270" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+    </ellipse>
+    <g stroke="#4EF0C4" fill="none" stroke-width="1.1">
+      <ellipse rx="118" ry="118" stroke-opacity="0.55">
+        <animate attributeName="rx" values="118;5;118" dur="11s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.6;0.14;0.6" dur="11s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="118" ry="118" stroke-opacity="0.55">
+        <animate attributeName="rx" values="118;5;118" dur="11s" begin="-2.2s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.6;0.14;0.6" dur="11s" begin="-2.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="118" ry="118" stroke-opacity="0.55">
+        <animate attributeName="rx" values="118;5;118" dur="11s" begin="-4.4s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.6;0.14;0.6" dur="11s" begin="-4.4s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="118" ry="118" stroke-opacity="0.55">
+        <animate attributeName="rx" values="118;5;118" dur="11s" begin="-6.6s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.6;0.14;0.6" dur="11s" begin="-6.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="118" ry="118" stroke-opacity="0.55">
+        <animate attributeName="rx" values="118;5;118" dur="11s" begin="-8.8s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.6;0.14;0.6" dur="11s" begin="-8.8s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+    <g stroke="#4EF0C4" fill="none" stroke-width="1" stroke-opacity="0.26">
+      <ellipse rx="118" ry="16"/>
+      <ellipse rx="102" ry="13" cy="-57"/>
+      <ellipse rx="102" ry="13" cy="57"/>
+      <ellipse rx="65" ry="9" cy="-97"/>
+      <ellipse rx="65" ry="9" cy="97"/>
+    </g>
+    <circle r="38" fill="url(#h-core)">
+      <animate attributeName="r" values="34;43;34" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="5" fill="#ECF3F1"/>
+  </g>
+
+  <circle r="4.5" fill="#4EF0C4">
+    <animateMotion dur="7s" repeatCount="indefinite"><mpath href="#h-orbit"/></animateMotion>
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#E8A33D">
+    <animateMotion dur="7s" begin="-3.5s" repeatCount="indefinite"><mpath href="#h-orbit"/></animateMotion>
+  </circle>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="52" y="76" fill="#4EF0C4" font-size="13" letter-spacing="6">SOFTWARE ENGINEER</text>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-weight="700" font-size="54" letter-spacing="-1">
+    <text x="50" y="146" fill="#E8A33D">
+      AYOUB HAMMOUDI
+      <animate attributeName="x" values="50;56;48;50;50;50;50" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.5;0;0;0;0;0" dur="7s" repeatCount="indefinite"/>
+    </text>
+    <text x="50" y="146" fill="#4EF0C4">
+      AYOUB HAMMOUDI
+      <animate attributeName="x" values="50;44;53;50;50;50;50" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.5;0;0;0;0;0" dur="7s" repeatCount="indefinite"/>
+    </text>
+    <text x="50" y="146" fill="#ECF3F1">AYOUB HAMMOUDI</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">
+    <text x="52" y="182" fill="#8FA09C">backend <tspan fill="#4EF0C4">&#183;</tspan> AI platforms <tspan fill="#4EF0C4">&#183;</tspan> security</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+    <text x="52" y="226" fill="#64756F">I ship systems end to end, and I measure before I claim.</text>
+  </g>
+
+  <g>
+    <rect x="50" y="252" width="206" height="34" fill="none" stroke="#4EF0C4" stroke-opacity="0.45"/>
+    <circle cx="68" cy="269" r="4" fill="#4EF0C4">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="82" y="274" fill="#4EF0C4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" letter-spacing="1.6">OPEN &#183; FEB 2027</text>
+    <text x="278" y="274" fill="#64756F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" letter-spacing="1.6">PARIS, FRANCE</text>
+  </g>
+</svg>
