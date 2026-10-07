@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" width="900" height="230" role="img" aria-label="Working with Python, TypeScript, Java, event-driven microservices, Kafka, Spark Structured Streaming, Airflow, Delta Lake, Apache Iceberg, Neo4j, PostgreSQL, MongoDB, Redis, Next.js, React, Docker, Playwright, LLM evaluation and red-teaming.">
+  <defs>
+    <pattern id="s-grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#4EF0C4" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="s-sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4EF0C4" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4EF0C4" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#4EF0C4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="230" fill="#070A0B"/>
+  <rect width="900" height="230" fill="url(#s-grid)"/>
+
+  <rect x="-260" y="78" width="260" height="76" fill="url(#s-sweep)">
+    <animate attributeName="x" values="-260;900" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="50" y="46" fill="#4EF0C4" font-size="13" letter-spacing="5">WORKING WITH</text>
+  </g>
+  <line x1="50" y1="62" x2="850" y2="62" stroke="#4EF0C4" stroke-opacity="0.2"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5">
+    <text x="50" y="94" fill="#ECF3F1">Python <tspan fill="#4EF0C4">&#183;</tspan> TypeScript <tspan fill="#4EF0C4">&#183;</tspan> Java <tspan fill="#4EF0C4">&#183;</tspan> event-driven microservices <tspan fill="#64756F">(Fastify, NestJS, Spring Cloud, Keycloak)</tspan></text>
+    <text x="50" y="120" fill="#ECF3F1">Kafka <tspan fill="#4EF0C4">&#183;</tspan> Spark Structured Streaming <tspan fill="#4EF0C4">&#183;</tspan> Airflow <tspan fill="#4EF0C4">&#183;</tspan> Delta Lake <tspan fill="#4EF0C4">&#183;</tspan> Apache Iceberg</text>
+    <text x="50" y="146" fill="#ECF3F1">Neo4j <tspan fill="#4EF0C4">&#183;</tspan> PostgreSQL <tspan fill="#4EF0C4">&#183;</tspan> MongoDB <tspan fill="#4EF0C4">&#183;</tspan> Redis <tspan fill="#4EF0C4">&#183;</tspan> Next.js <tspan fill="#4EF0C4">&#183;</tspan> React <tspan fill="#4EF0C4">&#183;</tspan> Docker <tspan fill="#4EF0C4">&#183;</tspan> Playwright</text>
+    <text x="50" y="172" fill="#E8A33D">LLM evaluation and red-teaming</text>
+  </g>
+
+  <line x1="50" y1="196" x2="850" y2="196" stroke="#4EF0C4" stroke-opacity="0.2"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" letter-spacing="1.8">
+    <circle cx="57" cy="216" r="4" fill="#4EF0C4">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="72" y="220" fill="#4EF0C4">OPEN FOR FULL-TIME FROM FEB 2027</text>
+    <text x="850" y="220" fill="#64756F" text-anchor="end">PARIS, FRANCE</text>
+  </g>
+</svg>
