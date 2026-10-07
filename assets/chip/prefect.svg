@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 231 34" width="231" height="34" role="img" aria-label="PrefectHQ/prefect #23281">
+  <rect x="0.5" y="0.5" width="230" height="33" fill="#0B1113" stroke="#4EF0C4" stroke-opacity="0.42"/>
+  <rect x="0" y="0" width="3" height="34" fill="#4EF0C4"/>
+  <circle cx="17" cy="17" r="3.2" fill="#4EF0C4">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2.74s" repeatCount="indefinite"/>
+  </circle>
+  <text x="29" y="22" fill="#ECF3F1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">PrefectHQ/prefect</text>
+  <text x="164" y="22" fill="#4EF0C4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">#23281</text>
+</svg>
